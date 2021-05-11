@@ -103,6 +103,7 @@ function Chatroom(){
 <div className="row justify-content-center h-100">
 
 <div className="card mb-sm-3 mb-md-0 contacts_card">
+  
         <div className="card-header">
           <div className="input-group">
             <input type="text" placeholder="Search..." name className="form-control search" />
