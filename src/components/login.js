@@ -20,7 +20,7 @@ export const Login = () =>{
         
         <div className="d-flex align-items-center" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
                 <div className= 'col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4'>
-                    <form className = "card card-body" onSubmit = {handleSubmit}>
+                    <form className = "card-login" onSubmit = {handleSubmit}>
                         <div className = 'mb-3'>
                             <label className='form-label'>Usuario</label>
                             <input type = 'email' className = 'form-control' onChange = {e => setUser(e.target.value)} value = {usuario}/>

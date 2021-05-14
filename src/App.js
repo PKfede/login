@@ -24,7 +24,7 @@ function App() {
       <Router>
       <Navbar/>
 
-      <div className ='container py-3'>
+      <div className ='py-3'>
         <Switch>
           <Route path = "/inicio" component = {Inicio} />
           <Route path = "/nosotros" component ={Nosotros} />
